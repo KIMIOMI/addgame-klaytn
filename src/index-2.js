@@ -173,7 +173,7 @@ const App = {
   },
 
   showTimer: function () {
-    var seconds = 5;
+    var seconds = 3;
     $('#timer').text(seconds);
     
     var interval = setInterval(() => {
